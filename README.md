@@ -133,41 +133,49 @@ Alongside this research direction, I build and explore systems across natural la
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git">
 </p>
 
-## 📊 GitHub Insights
+## 🔬 Research → Real-World Systems
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=shauravkhadka&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true&amp;include_all_commits=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=shauravkhadka&amp;show_icons=true&amp;theme=default&amp;hide_border=true&amp;include_all_commits=true">
-    <img src="https://github-readme-stats.vercel.app/api?username=shauravkhadka&amp;show_icons=true&amp;theme=default&amp;hide_border=true&amp;include_all_commits=true" height="165" alt="GitHub activity statistics">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=shauravkhadka&amp;layout=compact&amp;langs_count=6&amp;theme=github_dark&amp;hide_border=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=shauravkhadka&amp;layout=compact&amp;langs_count=6&amp;theme=default&amp;hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shauravkhadka&amp;layout=compact&amp;langs_count=6&amp;theme=default&amp;hide_border=true" height="165" alt="Languages used across public GitHub repositories">
+    <source media="(max-width: 680px) and (prefers-color-scheme: dark)" srcset="assets/research-system-mobile-dark.png">
+    <source media="(max-width: 680px) and (prefers-color-scheme: light)" srcset="assets/research-system-mobile-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/research-system-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/research-system-light.png">
+    <img src="assets/research-system-light.png" alt="Research and engineering map: human-centred AI and human decision boundaries; applied NLP linking text, models, vector search, and interfaces; and hybrid quantum machine learning linking classical features, variational quantum circuits, and baseline comparisons." width="100%">
   </picture>
 </div>
 
-### Contribution Activity
+Rather than measuring my work by commit frequency, I focus on **systems, experiments, and ideas that can be inspected**.
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=shauravkhadka&amp;theme=react-dark&amp;area=true&amp;hide_border=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=shauravkhadka&amp;theme=github-compact&amp;area=true&amp;hide_border=true">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=shauravkhadka&amp;theme=github-compact&amp;area=true&amp;hide_border=true" width="100%" alt="GitHub contribution activity graph">
-  </picture>
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🖥️ Application &amp; demo</h3>
+      <p><strong>RedditPulse</strong> brings together transformer-based sentiment analysis, topic discovery, semantic retrieval, and a Streamlit interface.</p>
+      <p><a href="https://redditpulse.streamlit.app"><strong>Open the external demo ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/shauravkhadka/RedditPulse">Read the source ↗</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚛️ Documented experiment</h3>
+      <p><strong>Hybrid Quantum–Classical Classifier</strong> explores a CNN-to-quantum-circuit pipeline with evaluation against a classical model.</p>
+      <p><a href="https://github.com/shauravkhadka/Hybrid-Quantum-Classical-Image-Classifier-"><strong>Explore the implementation ↗</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌏 Open research resources</h3>
+      <p><strong>Nepali NLP Resources</strong> indexes publicly available corpora, datasets, speech resources, and NLP tools.</p>
+      <p><a href="https://github.com/shauravkhadka/nepali-nlp-resources"><strong>Browse the resource index ↗</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 Research direction</h3>
+      <p><strong>Human-centred AI</strong> — investigating meaningful human oversight, decision boundaries, and the practical limits of human judgment in AI-supported workflows.</p>
+      <p><a href="https://www.shauravkhadka.com.np"><strong>Research and portfolio ↗</strong></a></p>
+    </td>
+  </tr>
+</table>
 
-<details>
-  <summary><strong>🏆 GitHub achievements</strong></summary>
-  <div align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=shauravkhadka&amp;theme=dark_dimmed&amp;no-frame=true&amp;no-bg=true&amp;column=6&amp;margin-w=5">
-      <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=shauravkhadka&amp;theme=flat&amp;no-frame=true&amp;no-bg=true&amp;column=6&amp;margin-w=5">
-      <img src="https://github-profile-trophy.vercel.app/?username=shauravkhadka&amp;theme=flat&amp;no-frame=true&amp;no-bg=true&amp;column=6&amp;margin-w=5" alt="GitHub achievement badges" width="100%">
-    </picture>
-  </div>
-</details>
+> **What matters to me:** clear problem definitions, careful evaluation, transparent limitations, and usable implementations. Project documentation provides the starting point for assessing the work; a graphic is not a substitute for evidence.
+
 
 ---
 
