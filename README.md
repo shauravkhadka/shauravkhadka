@@ -1,187 +1,182 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png">
-    <img src="assets/banner-light.png" alt="Shaurav Khadka — AI Engineer and Doctoral Researcher at Charles Darwin University. Human-Centred AI, Applied Machine Learning and Quantum Computing." width="100%">
-  </picture>
 
-  <p>
-    <a href="https://www.shauravkhadka.com.np"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-096B83?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="Visit portfolio"></a>
-    <a href="https://www.linkedin.com/in/shauravkhadka/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect on LinkedIn"></a>
-    <a href="https://github.com/shauravkhadka?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Explore%20Projects-30363D?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore repositories"></a>
-  </p>
+<picture>
+  <source media="(max-width: 680px) and (prefers-color-scheme: dark)" srcset="assets/hero-mobile-dark.png">
+  <source media="(max-width: 680px) and (prefers-color-scheme: light)" srcset="assets/hero-mobile-light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.gif">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.gif">
+  <img src="assets/hero-light.png" width="100%" alt="Shaurav Khadka — AI Engineer and doctoral researcher at Charles Darwin University, Darwin. Human-centred AI and reliable intelligent systems. Animated research constellation.">
+</picture>
 
-  <p><strong>Building intelligent systems that are useful, understandable, and accountable to people.</strong></p>
+<a href="https://shauravkhadka.com.np/"><img src="https://img.shields.io/badge/PORTFOLIO-EXPLORE-087F8C?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Explore portfolio"></a>
+<a href="https://www.linkedin.com/in/shauravkhadka/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"></a>
+<a href="https://orcid.org/0009-0009-9874-8239"><img src="https://img.shields.io/badge/ORCID-RESEARCH-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="View ORCID record"></a>
+
+**AI Engineer · Doctoral Researcher at Charles Darwin University**
+
+*I build intelligent systems and study how people can remain informed, capable and accountable when AI enters real decisions.*
+
+[Selected work](#-selected-work) · [Research](#-research--publications) · [Technical stack](#-technical-stack) · [Approach](#-engineering-approach) · [Connect](#-connect)
+
 </div>
 
 ---
 
-## 🧠 About Me
+## ✦ In Focus
 
-I'm an **AI engineer and doctoral researcher at Charles Darwin University**, based in Darwin, Australia. My work sits at the intersection of **human-centred AI, intelligent systems, and applied machine learning**.
-
-I'm interested in a question that goes beyond simply keeping a human “in the loop”: **when AI supports a decision, does the person still have the information, authority, and opportunity to exercise meaningful judgment?**
-
-Alongside this research direction, I build and explore systems across natural language processing, quantum machine learning, computer vision, and robotics.
+I work where **applied AI engineering** meets **human-centred system design**. My current PhD research at **Charles Darwin University (Darwin, Australia)** examines meaningful human judgment, oversight, and standards-aligned controls in generative-AI workflows, with teacher education as the initial research setting.
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔬 Research</h3>
-      <p>Human–AI decision-making, meaningful oversight, decision boundaries, explainability, and responsible AI in real-world workflows.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚙️ Engineering</h3>
-      <p>Applied NLP, retrieval and semantic search, deep learning, hybrid quantum–classical models, and intelligent applications.</p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔬 Research lens
+**Human agency · Responsible GenAI · Socio-technical evaluation**
+
+What information, authority, and practical opportunity must a person retain when an AI system supports consequential decisions?
+
+</td>
+<td width="50%" valign="top">
+
+### ⚙️ Engineering lens
+**Document AI · NLP / Retrieval · Vision · Evaluation**
+
+I build experiments and systems with attention to baselines, failure modes, traceability, reliability and usable interfaces.
+
+</td>
+</tr>
 </table>
 
-## 🚀 Featured Projects
+## 🚀 Selected Work
 
-<!-- Project descriptions are intentionally specific to the available repository documentation. -->
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/shauravkhadka/RedditPulse">📊 RedditPulse</a></h3>
-      <p><strong>Social Media Intelligence · NLP · Retrieval</strong></p>
-      <p>A Streamlit dashboard for analysing Reddit discussions through sentiment classification, topic discovery, semantic search, and optional AI-assisted summarisation.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?logo=python&amp;logoColor=white" alt="Python">
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&amp;logoColor=white" alt="Streamlit">
-        <img src="https://img.shields.io/badge/Transformers-FFD21E?logo=huggingface&amp;logoColor=black" alt="Transformers">
-      </p>
-      <p><a href="https://github.com/shauravkhadka/RedditPulse"><strong>Source code ↗</strong></a> · <a href="https://redditpulse.streamlit.app">Live demo ↗</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/shauravkhadka/Hybrid-Quantum-Classical-Image-Classifier-">⚛️ Hybrid Quantum–Classical Classifier</a></h3>
-      <p><strong>Quantum ML · Computer Vision</strong></p>
-      <p>An image-classification experiment combining classical feature extraction with a PennyLane variational quantum circuit, including classical-baseline comparisons.</p>
-      <p>
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&amp;logoColor=white" alt="PyTorch">
-        <img src="https://img.shields.io/badge/PennyLane-008B8B?logoColor=white" alt="PennyLane">
-        <img src="https://img.shields.io/badge/Quantum%20ML-6855CC?logoColor=white" alt="Quantum ML">
-      </p>
-      <p><a href="https://github.com/shauravkhadka/Hybrid-Quantum-Classical-Image-Classifier-"><strong>Explore project ↗</strong></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/shauravkhadka/Pasta-Detection-Robot-">🤖 Pasta Detection Robot</a></h3>
-      <p><strong>Robotics · Computer Vision</strong></p>
-      <p>A ROS 2-based object-detection project exploring automated pasta recognition and classification in a robotics workflow.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?logo=python&amp;logoColor=white" alt="Python">
-        <img src="https://img.shields.io/badge/ROS%202-22314E?logo=ros&amp;logoColor=white" alt="ROS 2">
-        <img src="https://img.shields.io/badge/Computer%20Vision-5C3EE8?logo=opencv&amp;logoColor=white" alt="Computer Vision">
-      </p>
-      <p><a href="https://github.com/shauravkhadka/Pasta-Detection-Robot-"><strong>Explore project ↗</strong></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/shauravkhadka/nepali-nlp-resources">🌏 Nepali NLP Resources</a></h3>
-      <p><strong>Low-Resource Languages · Open Resources</strong></p>
-      <p>A curated index of Nepali-language datasets, speech resources, corpora, pretrained embeddings, and NLP tools for researchers and developers.</p>
-      <p>
-        <img src="https://img.shields.io/badge/NLP-135D66?logoColor=white" alt="NLP">
-        <img src="https://img.shields.io/badge/Nepali-BA542C?logoColor=white" alt="Nepali">
-        <img src="https://img.shields.io/badge/Resources-4F46E5?logoColor=white" alt="Resources">
-      </p>
-      <p><a href="https://github.com/shauravkhadka/nepali-nlp-resources"><strong>Explore resources ↗</strong></a></p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/shauravkhadka/RedditPulse"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/redditpulse-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/redditpulse-light.png">
+  <img src="assets/redditpulse-light.png" width="100%" alt="Illustrated RedditPulse analytics project: natural-language processing, trend analysis, and semantic retrieval">
+</picture></a>
+  <h3><a href="https://github.com/shauravkhadka/RedditPulse">RedditPulse</a></h3>
+  <p>A Streamlit research dashboard integrating sentiment analysis, topic discovery and semantic retrieval across Reddit discussions.</p>
+  <p><a href="https://github.com/shauravkhadka/RedditPulse"><b>Code ↗</b></a> · <a href="https://redditpulse.streamlit.app"><b>Demo ↗</b></a></p>
+</td>
+<td width="50%" valign="top">
+  <a href="https://shauravkhadka.com.np/work/responsible-ai-governance/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/governance-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/governance-light.png">
+  <img src="assets/governance-light.png" width="100%" alt="Diagram of human agency and oversight as the centre of AI governance controls">
+</picture></a>
+  <h3><a href="https://shauravkhadka.com.np/work/responsible-ai-governance/">Human Agency &amp; Responsible AI</a></h3>
+  <p>My current doctoral research: translating responsible-AI principles into decision boundaries, governance controls and testable evidence. <em>Research in progress, not completed findings.</em></p>
+  <p><a href="https://shauravkhadka.com.np/work/responsible-ai-governance/"><b>Research scope ↗</b></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/shauravkhadka/Hybrid-Quantum-Classical-Image-Classifier-"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/quantum-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/quantum-light.png">
+  <img src="assets/quantum-light.png" width="100%" alt="Schematic quantum-classical machine-learning circuit with four computational lanes">
+</picture></a>
+  <h3><a href="https://github.com/shauravkhadka/Hybrid-Quantum-Classical-Image-Classifier-">Hybrid Quantum–Classical Classifier</a></h3>
+  <p>An experimental CNN-to-variational-quantum-circuit pipeline using PyTorch and PennyLane, with a classical baseline for comparison.</p>
+  <p><a href="https://github.com/shauravkhadka/Hybrid-Quantum-Classical-Image-Classifier-"><b>Code &amp; experiment ↗</b></a></p>
+</td>
+<td width="50%" valign="top">
+  <a href="https://shauravkhadka.com.np/work/vision-ros2-sim2real/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/robotics-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/robotics-light.png">
+  <img src="assets/robotics-light.png" width="100%" alt="Robotics perception schematic illustrating camera-domain shift and model evaluation">
+</picture></a>
+  <h3><a href="https://shauravkhadka.com.np/work/vision-ros2-sim2real/">Vision, ROS 2 &amp; Sim2Real</a></h3>
+  <p>Collaborative robotics work investigating model failure on robot-camera images and performance recovery after deployment-specific adaptation.</p>
+  <p><a href="https://shauravkhadka.com.np/work/vision-ros2-sim2real/"><b>Case study ↗</b></a> · <a href="https://github.com/shauravkhadka/Pasta-Detection-Robot-"><b>ROS 2 project ↗</b></a></p>
+</td>
+</tr>
 </table>
 
 <details>
-  <summary><strong>More experiments and repositories</strong></summary>
-  <p>
-    <a href="https://github.com/shauravkhadka/qnl_nonmarkov_ml">Non-Markovian trajectory modelling</a> ·
-    <a href="https://github.com/shauravkhadka/ML-Quantum-Computing">Quantum ML circuit demos</a> ·
-    <a href="https://github.com/shauravkhadka/Adncanved-NLP-Reddit">Reddit NLP notebooks</a> ·
-    <a href="https://github.com/shauravkhadka?tab=repositories">All repositories ↗</a>
-  </p>
+<summary><strong>Additional experiments, open resources &amp; systems ↗</strong></summary>
+
+- [Nepali NLP Resources](https://github.com/shauravkhadka/nepali-nlp-resources) — curated multilingual and low-resource NLP reference index.
+- [Non-Markovian ML trajectories](https://github.com/shauravkhadka/qnl_nonmarkov_ml) — quantum dynamics research-code experiments.
+- [Reinforcement-Learning Benchmark Suite](https://shauravkhadka.com.np/work/reinforcement-learning-benchmark-suite/) — documented training and evaluation comparisons.
+- [Production AI Reliability](https://shauravkhadka.com.np/) — documented evaluation approach for document-intelligence pipelines; confidential work is not published as source code.
+- [All public repositories](https://github.com/shauravkhadka?tab=repositories) — explore the wider collection.
+
 </details>
 
-## 🛠️ Technical Stack
-
-**Machine learning & data**
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&amp;logo=tensorflow&amp;logoColor=white" alt="TensorFlow">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&amp;logo=numpy&amp;logoColor=white" alt="NumPy">
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="pandas">
-</p>
-
-**NLP & applications**
-
-<p>
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=black" alt="Hugging Face">
-  <img src="https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&amp;logo=spacy&amp;logoColor=white" alt="spaCy">
-  <img src="https://img.shields.io/badge/FAISS-3267C8?style=flat-square" alt="FAISS">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&amp;logo=streamlit&amp;logoColor=white" alt="Streamlit">
-</p>
-
-**Quantum, robotics & development**
-
-<p>
-  <img src="https://img.shields.io/badge/Qiskit-6929C4?style=flat-square&amp;logo=qiskit&amp;logoColor=white" alt="Qiskit">
-  <img src="https://img.shields.io/badge/PennyLane-118F84?style=flat-square" alt="PennyLane">
-  <img src="https://img.shields.io/badge/ROS%202-22314E?style=flat-square&amp;logo=ros&amp;logoColor=white" alt="ROS 2">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&amp;logo=jupyter&amp;logoColor=white" alt="Jupyter">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git">
-</p>
-
-## 🔬 Research → Real-World Systems
+## 🛠 Technical Stack
 
 <div align="center">
-  <picture>
-    <source media="(max-width: 680px) and (prefers-color-scheme: dark)" srcset="assets/research-system-mobile-dark.png">
-    <source media="(max-width: 680px) and (prefers-color-scheme: light)" srcset="assets/research-system-mobile-light.png">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/research-system-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/research-system-light.png">
-    <img src="assets/research-system-light.png" alt="Research and engineering map: human-centred AI and human decision boundaries; applied NLP linking text, models, vector search, and interfaces; and hybrid quantum machine learning linking classical features, variational quantum circuits, and baseline comparisons." width="100%">
-  </picture>
+
+**Core languages, research and ML**
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,git,github,aws&theme=dark&perline=6" alt="Python, PyTorch, TensorFlow, Git, GitHub and AWS">
+
+**Tools used across projects**
+
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face">
+<img src="https://img.shields.io/badge/FAISS-3267C8?style=flat-square&logoColor=white" alt="FAISS">
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
+<img src="https://img.shields.io/badge/PennyLane-118F84?style=flat-square&logoColor=white" alt="PennyLane">
+<img src="https://img.shields.io/badge/Qiskit-6929C4?style=flat-square&logo=qiskit&logoColor=white" alt="Qiskit">
+<img src="https://img.shields.io/badge/ROS%202-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS 2">
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter">
+<img src="https://img.shields.io/badge/AWS%20S3-FF9900?style=flat-square&logo=amazons3&logoColor=white" alt="AWS S3">
+
 </div>
 
-Rather than measuring my work by commit frequency, I focus on **systems, experiments, and ideas that can be inspected**.
+## 🧭 Engineering Approach
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🖥️ Application &amp; demo</h3>
-      <p><strong>RedditPulse</strong> brings together transformer-based sentiment analysis, topic discovery, semantic retrieval, and a Streamlit interface.</p>
-      <p><a href="https://redditpulse.streamlit.app"><strong>Open the external demo ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/shauravkhadka/RedditPulse">Read the source ↗</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚛️ Documented experiment</h3>
-      <p><strong>Hybrid Quantum–Classical Classifier</strong> explores a CNN-to-quantum-circuit pipeline with evaluation against a classical model.</p>
-      <p><a href="https://github.com/shauravkhadka/Hybrid-Quantum-Classical-Image-Classifier-"><strong>Explore the implementation ↗</strong></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌏 Open research resources</h3>
-      <p><strong>Nepali NLP Resources</strong> indexes publicly available corpora, datasets, speech resources, and NLP tools.</p>
-      <p><a href="https://github.com/shauravkhadka/nepali-nlp-resources"><strong>Browse the resource index ↗</strong></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧠 Research direction</h3>
-      <p><strong>Human-centred AI</strong> — investigating meaningful human oversight, decision boundaries, and the practical limits of human judgment in AI-supported workflows.</p>
-      <p><a href="https://www.shauravkhadka.com.np"><strong>Research and portfolio ↗</strong></a></p>
-    </td>
-  </tr>
-</table>
+<div align="center">
+<picture>
+  <source media="(max-width: 680px) and (prefers-color-scheme: dark)" srcset="assets/system-mobile-dark.png">
+  <source media="(max-width: 680px) and (prefers-color-scheme: light)" srcset="assets/system-mobile-light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/system-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/system-light.png">
+  <img src="assets/system-light.png" width="100%" alt="Four-stage workflow: Define the human problem, build working systems, evaluate failure modes, and explain inspectable evidence">
+</picture>
+</div>
 
-> **What matters to me:** clear problem definitions, careful evaluation, transparent limitations, and usable implementations. Project documentation provides the starting point for assessing the work; a graphic is not a substitute for evidence.
+The recurring principle across my work: **a system is only as trustworthy as the evidence around its decisions.** Model outputs matter, but so do inputs, failure analysis, review boundaries, and what happens in deployment.
 
+## 📚 Research &amp; Publications
+
+I maintain public technical reports and preprints alongside my doctoral research. **The records below are non-peer-reviewed technical outputs**, not journal papers.
+
+| Selected technical output | Record |
+| --- | --- |
+| **FieldTrace-OCR:** reliability-oriented evaluation for invoice-parsing pipelines | [DOI ↗](https://doi.org/10.5281/zenodo.20669709) |
+| **A Lightweight Multilingual Semantic Search Pipeline** | [DOI ↗](https://doi.org/10.5281/zenodo.20652874) |
+| **Temporal Context and Momentum-Aware Reward Shaping in Reinforcement Learning** | [DOI ↗](https://doi.org/10.5281/zenodo.20669675) |
+| **A Retrieval-Augmented Financial Advisory Prototype with Evidence-Gated Response Generation** | [DOI ↗](https://doi.org/10.5281/zenodo.20652567) |
+
+[ORCID research record ↗](https://orcid.org/0009-0009-9874-8239) · [Research programme ↗](https://shauravkhadka.com.np/work/responsible-ai-governance/) · [Books &amp; writing ↗](https://shauravkhadka.com.np/)
+
+<details>
+<summary><strong>Background, wider interests &amp; selected learning</strong></summary>
+
+- **Education:** PhD, Charles Darwin University (in progress); Master of Information Technology (Artificial Intelligence), Macquarie University; BSc (Hons) Computing, First Class Honours.
+- **Experience:** AI/ML R&amp;D at Truuth; earlier technology leadership as CTO at Picpoint Nepal.
+- **Selected learning:** Harvard CS50x, AI governance, design thinking and sustainability leadership.
+- **Beyond a single discipline:** machine learning, human-computer interaction, robotics, technology leadership, digital well-being and nonfiction writing.
+
+For a fuller and more current professional record, see my [portfolio](https://shauravkhadka.com.np/).
+
+</details>
 
 ---
 
 <div align="center">
-  <h3>Let's connect</h3>
-  <p>Interested in human-centred AI, intelligent systems, applied machine learning, or research collaboration?</p>
-  <p><a href="https://www.shauravkhadka.com.np"><strong>Portfolio & research</strong></a> · <a href="https://www.linkedin.com/in/shauravkhadka/"><strong>LinkedIn</strong></a> · <a href="https://github.com/shauravkhadka?tab=repositories"><strong>More code</strong></a></p>
-  <sub>Research-led. Engineering-minded. Human-centred.</sub>
+
+## 🤝 Connect
+
+**Research collaboration · AI engineering · Intelligent systems**
+
+[Portfolio](https://shauravkhadka.com.np/) · [LinkedIn](https://www.linkedin.com/in/shauravkhadka/) · [ORCID](https://orcid.org/0009-0009-9874-8239) · [More projects](https://github.com/shauravkhadka?tab=repositories)
+
+<sub>Build what can be inspected. Measure before claiming. Keep human judgment explicit.</sub>
+
 </div>
